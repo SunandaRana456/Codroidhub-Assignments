@@ -1,1 +1,1 @@
-# My Git Assignments
+# My Assignments

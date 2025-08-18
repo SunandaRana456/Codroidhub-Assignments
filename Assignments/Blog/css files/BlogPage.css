@@ -1,0 +1,111 @@
+body {
+    background-color: #FFEEA9;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 20px 0;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #212121;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+main section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 2;
+    min-width: 300px;
+}
+
+article h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+article ul {
+    margin-left: 20px;
+}
+
+aside {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff5d1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+aside p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+aside figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+aside figcaption {
+    font-size: 14px;
+    color: #212121;
+    margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #212121;
+    font-size: 14px;
+}

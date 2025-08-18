@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFEAD8;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f2cba5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.tourist-place {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.tourist-place img {
+    flex: 1 1 45%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.tourist-place div {
+    flex: 1 1 50%;
+}
+
+.tourist-place h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tourist-place ul {
+    list-style: disc inside;
+}
+
+.tips, .nearby {
+    margin: 40px 0;
+}
+
+.tips h3, .nearby h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.tips ul, .nearby ul {
+    list-style: circle inside;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2cba5;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 50px;
+}

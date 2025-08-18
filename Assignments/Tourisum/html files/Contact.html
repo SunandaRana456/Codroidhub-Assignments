@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="../City Tourisum images/Tourism.ico">
+    <link rel="stylesheet" href="../css files/Contact.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><u><i>Contact</i></u></h1>
+            <section>
+                <img src="../City Tourisum images/hotel pic2.jpg" height="400" width="600" alt="picture of hotel">
+            </section>
+            <h2>Contact us by filling this form</h2>
+        </header>
+        <main>
+            <form method="post">
+                <section>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </section><br>
+
+                <section>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </section><br>
+
+                <section>
+                    <label for="phone">Phone No.:</label>
+                    <input type="number" name="phone" id="phone">
+                </section><br>
+
+                <section>
+                    <label>Do you want to book a hotel in Ambala?</label><br>
+                    <input type="radio" name="booking" value="yes"> Yes
+                    <input type="radio" name="booking" value="no"> No
+                </section><br>
+
+                <section>
+                    <label>How many number of rooms you want to book?</label><br>
+                    <input type="radio" name="rooms" value="one"> One
+                    <input type="radio" name="rooms" value="two"> Two
+                    <input type="radio" name="rooms" value="more than two"> More than Two
+                </section><br>
+
+                <section>
+                    <label>Which method of payment are you using?</label><br>
+                    <input type="radio" name="payment" value="cash"> Cash
+                    <input type="radio" name="payment" value="googlepay"> Gpay
+                    <input type="radio" name="payment" value="paytm"> Paytm
+                    <input type="radio" name="payment" value="razorpay"> Razorpay
+                </section><br>
+
+                <section class="btn">
+                    <button type="submit">Submit</button>
+                </section>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

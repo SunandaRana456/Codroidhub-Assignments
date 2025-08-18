@@ -1,0 +1,38 @@
+
+body {
+    background-color: #FFEEA9;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+main section img {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #212121;
+    margin-bottom: 30px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #212121;
+    font-family: "Helvetica", "Arial", sans-serif;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+}

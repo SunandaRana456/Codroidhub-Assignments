@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005792;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main {
+  background-color: #dbeeff;
+  text-align: center;
+  padding: 80px 20px;
+  display:flex
+}
+
+.main h1 {
+  font-size: 48px;
+  color: #005792;
+}
+
+.main p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.subjects {
+  background-color: #c6e8ff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.subjects h2 {
+  margin-bottom: 20px;
+  color: #005792;
+}
+
+.subjects .subject-block{
+ display: inline-block;
+  background-color: white;
+  margin: 30px 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.down-section {
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+}
+
+.about, .cards, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2, .cards h2, .contact h2,.up-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #005792;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #cce0f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  color:#0074cc;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: #0074cc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #005792;
+}
+
+footer {
+  background-color: #005792;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

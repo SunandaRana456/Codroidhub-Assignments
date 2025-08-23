@@ -5,10 +5,13 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f7f9fc;
   color: #333;
-  line-height: 1.6;
+  /* line-height: 1.6; */
+}
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -37,11 +40,24 @@ nav ul li a {
   font-weight: 500;
 }
 
+.right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 .main {
   background-color: #dbeeff;
   text-align: center;
   padding: 80px 20px;
-  display:flex
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.left, .right {
+  flex: 1 1 50%;
+  padding: 20px;
 }
 
 .main h1 {
@@ -64,26 +80,35 @@ nav ul li a {
   color: #005792;
 }
 
-.subjects .subject-block{
- display: inline-block;
+.subjects .subject-block {
+  display: inline-block;
   background-color: white;
   margin: 30px 20px;
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
 }
+.subject-block:hover {
+  background-color: #0074cc;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
 .down-section {
   margin-top: 30px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.about, .cards, .contact {
+.about,.cards,.contact {
   padding: 60px 20px;
   text-align: center;
 }
 
-.about h2, .cards h2, .contact h2,.up-section h2 {
+.about h2,.cards h2,.contact h2,
+.up-section h2 {
   font-size: 32px;
   margin-bottom: 20px;
   color: #005792;
@@ -94,8 +119,6 @@ nav ul li a {
   margin: 0 auto;
   font-size: 18px;
 }
-
-
 
 .card-list {
   display: flex;
@@ -111,11 +134,16 @@ nav ul li a {
   border-radius: 8px;
   padding: 20px;
   width: 280px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card h3 {
-  color:#0074cc;
+  color: #0074cc;
   margin-bottom: 10px;
 }
 
@@ -161,4 +189,18 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left, .right {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

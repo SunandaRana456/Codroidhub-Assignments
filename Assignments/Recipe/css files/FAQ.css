@@ -1,9 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #EBD6FB;
     font-family: Helvetica, Arial, sans-serif;
     color: #212121;
-    margin: 0;
-    padding: 0 20px;
     line-height: 1.6;
 }
 
@@ -13,6 +16,21 @@ body {
     display: block;
     text-align: center;
     margin-top: 20px;
+}.navbar {
+  background-color: #ad9eb9;
+  min-height: 80px;
+  max-height: 120px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.navbar .logo img {
+  height: 50px;
+  width: 200px;
 }
 
 h1 {
@@ -40,4 +58,11 @@ h1 {
 .faq-item p {
     font-size: 18px;
     margin: 0;
+}
+footer{
+     text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    color: #555;
+    background-color: #ad9eb9;
 }

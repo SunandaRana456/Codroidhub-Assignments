@@ -11,6 +11,9 @@ html{
   width: 100%;
   max-width: 1400px;
 }
+.container h1{
+  font-size: 3rem;
+}
 
 
 .sec1{
